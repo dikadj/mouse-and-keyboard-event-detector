@@ -79,7 +79,7 @@ linters:
     enabled: true
 
   IdSelector:
-    enabled: true
+    enabled: false
 
   ImportantRule:
     enabled: true
@@ -215,8 +215,8 @@ linters:
     spaces: 0
 
   StringQuotes:
-    enabled: true
-    style: single_quotes # or double_quotes
+    enabled: enable
+    style: double_quotes # or single_quotes
 
   TrailingSemicolon:
     enabled: true

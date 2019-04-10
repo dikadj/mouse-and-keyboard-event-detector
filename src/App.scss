@@ -1,6 +1,69 @@
+$wrapper-bg: rgb(240, 240, 240);
+$event-wrapper-bg: rgb(255, 255, 255);
+$evt-bg: rgb(210, 210, 210);
+
+#wrapper {
+  background: $wrapper-bg;
+
+  #mouseEvents {
+    background: $event-wrapper-bg;
+
+    #clickAndDoubleclick {
+      background: $evt-bg;
+      height: 150px;
+      width: 150px;
+    }
+    #mouseUpDown {
+      background: $evt-bg;
+      height: 150px;
+      width: 150px;
+    }
+
+    #mouseEnterLeave {
+      background: $evt-bg;
+      height: 150px;
+      width: 150px;
+    }
+
+    #mouseOverLeave {
+      background: $evt-bg;
+      height: 150px;
+      width: 150px;
+    }
+
+    #mouseMove {
+      background: rgb(210, 210, 210);
+      height: 150px;
+      width: 150px;
+    }
+
+    #scroll {
+      background: $evt-bg;
+      height: 150px;
+      width: 150px;
+    }
+  }
+
+  #keyboardEvents {
+    background: $event-wrapper-bg;
+
+    #keyUpDown {
+      background: $evt-bg;
+      height: 150px;
+      width: 150px;
+    }
+
+    #keyPressUp {
+      background: $evt-bg;
+      height: 150px;
+      width: 150px;
+    }
+  }
+}
+
 .green {
-	color: green;
+  color: green;
 }
 .red {
-	color: red;
+  color: red;
 }
